@@ -30,12 +30,12 @@ function NavbarComponent() {
             <Link href="/projet">Projet</Link>
           )}
 
-          {router === "/resume" ? (
-            <Link href="/resume" className="border-b-2 border-b-yellow-500">
-              Resume
+          {router === "/cv" ? (
+            <Link href="/cv" className="border-b-2 border-b-yellow-500">
+              CV
             </Link>
           ) : (
-            <Link href="/resume">Resume</Link>
+            <Link href="/cv">CV</Link>
           )}
         </div>
       </div>
