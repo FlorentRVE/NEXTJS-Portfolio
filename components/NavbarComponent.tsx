@@ -11,9 +11,12 @@ function NavbarComponent() {
 
       <div className="flex justify-between items-center md:w-1/2 mx-auto h-16 px-4">
 
-        <img src="/logo_rve.png" className="h-14 w-14"/>
+        <Link href="/">
+          <img src="/logo_rve.png" className="h-14 w-14" />
+        </Link>
 
         <div className="flex gap-4 font-bold">
+          
           {router === "/" ? (
             <Link href="/" className="border-b-4 border-b-green-500">
               Accueil
