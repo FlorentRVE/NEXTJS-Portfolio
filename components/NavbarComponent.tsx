@@ -7,15 +7,15 @@ function NavbarComponent() {
   const router = usePathname();
 
   return (
-    <div className="bg-slate-950 h-14">
+    <div className="bg-slate-950 h-16">
 
-      <div className="flex justify-between items-center w-1/2 mx-auto h-14 px-4">
+      <div className="flex justify-between items-center md:w-1/2 mx-auto h-16 px-4">
 
-        <p className="text-xl font-extrabold text-yellow-500">LOGO</p>
+        <img src="/logo_rve.png" className="h-14 w-14"/>
 
-        <div className="flex gap-4">
+        <div className="flex gap-4 font-bold">
           {router === "/" ? (
-            <Link href="/" className="border-b-2 border-b-yellow-500">
+            <Link href="/" className="border-b-4 border-b-green-500">
               Accueil
             </Link>
           ) : (
@@ -23,7 +23,7 @@ function NavbarComponent() {
           )}
 
           {router === "/projet" ? (
-            <Link href="/projet" className="border-b-2 border-b-yellow-500">
+            <Link href="/projet" className="border-b-4 border-b-green-500">
               Projet
             </Link>
           ) : (
@@ -31,7 +31,7 @@ function NavbarComponent() {
           )}
 
           {router === "/cv" ? (
-            <Link href="/cv" className="border-b-2 border-b-yellow-500">
+            <Link href="/cv" className="border-b-4 border-b-green-500">
               CV
             </Link>
           ) : (
