@@ -18,9 +18,23 @@ export default function projet() {
           <ProjetComponent
             image="/projet/so_rh.png"
             titre="SO RH"
-            description="Une application web permettant aux employés d'échanger plus rapidement avec le bureau RH via formulaire"
+            description="Une application intra web permettant aux employés d'échanger plus rapidement avec le bureau RH via formulaire"
             stack="Symfony, TailwindCSS, Github, Docker, MYSQL"
             lienGitHub="https://github.com/FlorentRVE/Projet_So_rh"
+          />
+          <ProjetComponent
+            image="/projet/presta.png"
+            titre="Presta"
+            description="Application de recherche de prestataire"
+            stack="React, Adonis.js, TailwindCSS, DaisyUI, Github, MYSQL"
+            lienGitHub="https://github.com/FlorentRVE/presta"
+          />
+          <ProjetComponent
+            image="/projet/planning.png"
+            titre="PLANNING"
+            description="Une application intra web traitant des données de plusieurs application pour afficher un planning"
+            stack="Symfony, TailwindCSS, Github, MYSQL"
+            lienGitHub="https://github.com/FlorentRVE/Projet_PLANNING"
           />
           <ProjetComponent
             image="/projet/faq.png"
@@ -44,6 +58,20 @@ export default function projet() {
             lienGitHub="https://github.com/FlorentRVE/Lakaz?tab=readme-ov-file"
           />
           <ProjetComponent
+            image="/projet/mass_follow.png"
+            titre="Mass Follow"
+            description="Extension navigateur permettant de suivre toutes les personnes se trouvant sur la page Linkedin"
+            stack="Html, CSS, JS, Github"
+            lienGitHub="https://github.com/FlorentRVE/PLUGIN-firefox_mass_follow"
+          />
+          <ProjetComponent
+            image="/projet/node_minijeu.png"
+            titre="Node Mini jeu"
+            description="Création d'un mini jeu avec Kaboom.js et Node.js pour le login"
+            stack="Node.js, Kaboom.js, Github"
+            lienGitHub="https://github.com/FlorentRVE/Nodejs-Mini_jeu"
+          />
+          <ProjetComponent
             image="/projet/python_chatroom.png"
             titre="Python Chatroom"
             description="Création d'une chatroom avec le langage python et socket.io"
@@ -53,7 +81,7 @@ export default function projet() {
           <ProjetComponent
             image="/projet/kanap.png"
             titre="Kanap"
-            description="Exercice création front d'un site ecommerce de canap en Javascript"
+            description="Exercice création front d'un site ecommerce de canapés en Javascript"
             stack="Html, CSS, JS, Github"
             lienGitHub="https://github.com/FlorentRVE/OC_projet5/tree/projet_5"
           />
