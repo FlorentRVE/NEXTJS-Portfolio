@@ -20,7 +20,7 @@ export default function resume() {
 
           <img src="/me.png" className="h-36 w-36" />
         </div>
-        
+
         <div>
           <h2 className="text-2xl font-bold mb-2">Langues</h2>
           <div>
@@ -33,59 +33,47 @@ export default function resume() {
         </div>
 
         <div>
-          <h2 className="text-2xl font-bold mb-2">Technologie</h2>
+          <h2 className="text-2xl font-bold mb-2">Technologies</h2>
           <div className="flex flex-col border-green-200 border-2 rounded-xl px-2 bg-slate-800">
             <ul className="list-disc p-3 flex flex-col gap-1">
               <li>
-                Frontend: JavaScript, Typescript, React, Next.js, TailwindCSS,
-                DaisyUi
+                <span className="font-bold text-green-500">Frontend:</span>{" "}
+                JavaScript, Typescript, React, Next.js, TailwindCSS,
+                DaisyUi/Shadcn/primereact
               </li>
               <li>
-                Backend: Node.js, Symfony (PHP), Adonis.js, Strapi, APIs, Express.js,
+                <span className="font-bold text-green-500">Backend:</span>{" "}
+                Adonis.js, Strapi, Node.js, Symfony (PHP), APIs, Express.js,
                 MongoDB, MySQL
               </li>
-              <li>Mobile: React Native (prochainement), Flutter </li>
-              <li>Autres: Docker, Git, Vercel, Git Action, Wordpress, Divi </li>
+              <li>
+                <span className="font-bold text-green-500">Mobile:</span> React
+                Native, Flutter{" "}
+              </li>
+              <li>
+                <span className="font-bold text-green-500">Autres:</span>{" "}
+                Docker, Git, Vercel, Git Action, Wordpress, Divi{" "}
+              </li>
             </ul>
           </div>
         </div>
 
         <div>
-          <h2 className="text-2xl font-bold mb-2">Expérence professionnelle</h2>
+          <h2 className="text-2xl font-bold mb-2">
+            Expérences professionnelles
+          </h2>
 
           <div className="flex flex-col gap-3">
             <ExperienceProComponent
-              poste="Developeur Web"
-              du="01/01/2022"
-              au="01/01/2022"
+              poste="Concepteur développeur d'application (alternance)"
+              du="05/10/2023"
+              au="30/09/2024"
               localisation="Saint-denis (La Réunion)"
-              entreprise="Nom de l'entreprise"
-              description="description de la mission"
-              mission1="description de la mission"
-              mission2="description de la mission"
-              mission3="description de la mission"
-            />
-            <ExperienceProComponent
-              poste="Developeur Web"
-              du="01/01/2022"
-              au="01/01/2022"
-              localisation="Saint-denis (La Réunion)"
-              entreprise="Nom de l'entreprise"
-              description="description de la mission"
-              mission1="description de la mission"
-              mission2="description de la mission"
-              mission3="description de la mission"
-            />
-            <ExperienceProComponent
-              poste="Developeur Web"
-              du="01/01/2022"
-              au="01/01/2022"
-              localisation="Saint-denis (La Réunion)"
-              entreprise="Nom de l'entreprise"
-              description="description de la mission"
-              mission1="description de la mission"
-              mission2="description de la mission"
-              mission3="description de la mission"
+              entreprise="SODIPARC"
+              description="J'ai effectué une année d'alternance dans l'entreprise SODIPARC pour la préparation de mon titre CDA. Durant cette année j'ai pu concevoir de zéro des applications vouées à être déployés en interne. La technologie principale utilisé était Symfony."
+              mission1="Concevoir des applications répondant aux besoins des services de l'entreprise"
+              mission2="Adapter la logique métier des applications pour correspondre à la demande"
+              mission3="Déployer les applications sur un serveur en intranet"
             />
           </div>
         </div>

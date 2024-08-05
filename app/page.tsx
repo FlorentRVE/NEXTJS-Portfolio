@@ -14,7 +14,7 @@ export default function Home() {
         <h1 className="text-3xl font-bold">Concepteur Développeur d'Application</h1>
 
         <div className="border-l-4 border-l-green-600 h-10 flex items-center pl-2">
-          <p>🌴 Bienvenue, je suis un développeur basé à l'île de la réunion</p>
+          <p>🌴 Bienvenue, je suis Florent, un développeur web et mobile basé à l'île de la réunion</p>
         </div>
 
         <CompetencesComponent />
