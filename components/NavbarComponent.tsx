@@ -40,6 +40,14 @@ function NavbarComponent() {
           ) : (
             <Link href="/cv">CV</Link>
           )}
+
+          {router === "/blog" ? (
+            <Link href="/blog" className="border-b-4 border-b-green-500">
+              Blog
+            </Link>
+          ) : (
+            <Link href="/blog">Blog</Link>
+          )}
         </div>
       </div>
     </div>

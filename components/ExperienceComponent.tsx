@@ -7,7 +7,7 @@ export default function ExperienceComponent() {
 
       <div className="flex flex-col gap-4">
         <div className="flex flex-col border-green-200 border-2 rounded-xl p-4 gap-2 bg-slate-800">
-          <p>J'ai commencé à apprendre le développement en autodidacte et aujourd'hui encore je continue à apprendre par la réalisation de divers projets. Mon but est de me spécialiser dans les technologies orientées frontend et mobile. </p>
+          <p>J'ai commencé à apprendre le développement en autodidacte et aujourd'hui encore je continue à apprendre par la réalisation de divers projets.</p>
           <div className="flex justify-between">
             <ul className="list-disc p-3">
               <li>Premier pas en développement sur Freecodecamp et sa certification "Responsive Web Design"</li>
