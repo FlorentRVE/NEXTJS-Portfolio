@@ -9,11 +9,12 @@ import { useEffect, useState } from "react";
 import * as api from "@/utils/api";
 
 export default function Page() {
-
   const [articles, setArticles] = useState<any>([]);
 
+  const tagExemple = ["HTML", "CSS", "Javascript"];
+
   useEffect(() => {
-    api.getData().then((data: { data: any; }) => {
+    api.getData().then((data: { data: any }) => {
       setArticles(data.data);
     });
   }, []);
@@ -26,24 +27,25 @@ export default function Page() {
         <h1 className="text-3xl font-bold">Blog</h1>
 
         <div className="border-l-4 border-l-green-600 h-10 flex items-center pl-2">
-          <p>⚒️ Retrouvez ici mes articles de blog</p>
+          <p>✍️ Retrouvez ici mes articles de blog</p>
         </div>
 
         <div className="flex flex-col gap-3">
-
-          {articles.map((article:any) => (
-
-            < ArticleComponent
+          {articles.map((article: any) => (
+            <ArticleComponent
               key={article.id}
-              image={"http://localhost:1337" + article.attributes.couverture.data.attributes.url}
+              imageURL={
+                article.attributes?.couverture?.data?.attributes?.url
+                  ? "http://localhost:1337" +
+                    article.attributes?.couverture?.data?.attributes?.url
+                  : "https://placehold.co/600x400"
+              }
               titre={article.attributes.titre}
               description={article.attributes.description}
               lienArticle={article.id}
-              stack="stack imaginaire"
+              tag={tagExemple}
             />
-
           ))}
-
         </div>
       </div>
 

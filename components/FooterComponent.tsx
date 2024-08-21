@@ -1,10 +1,9 @@
 "use client";
 
-import SVGComponentGithub from "./GithubSvgComponent";
-import SVGComponentLinkedin from "./LinkedinSvgComponent";
+import SVGComponentGithub from "./SVG/GithubSvgComponent";
+import SVGComponentLinkedin from "./SVG/LinkedinSvgComponent";
 
 export default function FooterComponent() {
-
   return (
     <div className="bg-slate-950 h-48 flex items-center">
       <div className="flex justify-center items-center md:w-1/2 mx-auto h-16 gap-4">

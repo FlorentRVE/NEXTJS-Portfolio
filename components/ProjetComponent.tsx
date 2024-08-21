@@ -1,5 +1,5 @@
 import React from "react";
-import SVGComponentGithub from "./GithubSvgComponent";
+import SVGComponentGithub from "./SVG/GithubSvgComponent";
 
 export default function ProjetComponent({
   image,

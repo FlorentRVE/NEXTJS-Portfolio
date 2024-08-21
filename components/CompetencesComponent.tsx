@@ -1,6 +1,6 @@
 import React from "react";
-import SVGComponent from "./ReactSvgComponent";
-import SVGComponentNode from "./NodeSvgComponent";
+import SVGComponent from "./SVG/ReactSvgComponent";
+import SVGComponentNode from "./SVG/NodeSvgComponent";
 
 export default function CompetencesComponent() {
   return (
@@ -83,7 +83,7 @@ export default function CompetencesComponent() {
           <div className="flex justify-between">
             <ul className="list-disc p-3">
               <li>
-                Framework backend :{" "}
+                Framework backend{" "}
                 <a href="https://adonisjs.com/" className="text-lime-500">
                   AdonisJs
                 </a>
