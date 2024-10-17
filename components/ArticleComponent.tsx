@@ -21,6 +21,7 @@ export default function ProjetComponent({
           <img
             src={imageURL}
             className="h-20 w-20 lg:h-36 lg:w-36 object-cover"
+            alt="image article"
           />
 
           <div className="flex flex-col items-center justify-center gap-2 mx-auto flex-1">

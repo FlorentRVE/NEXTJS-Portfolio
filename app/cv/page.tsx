@@ -11,14 +11,14 @@ export default function resume() {
         <div className="flex flex-col-reverse gap-3 lg:flex-row lg:gap-0 lg:justify-between">
           <div className="flex flex-col">
             <h1 className="text-2xl font-bold mb-2">
-              Concepteur Développeur d'Application
+              Concepteur Développeur d&apos;Application
             </h1>
             <p>🌴 Rivière Florent, 32 ans</p>
             <p>📌 Île de La Réunion (974)</p>
             <p>📧 florent.rve@gmail.com</p>
           </div>
 
-          <img src="/me.png" className="h-36 w-36 self-center" />
+          <img src="/me.png" className="h-36 w-36 self-center" alt="moi" />
         </div>
 
         <div>
@@ -104,7 +104,7 @@ export default function resume() {
           <h2 className="text-2xl font-bold mb-2">Diplôme</h2>
           <div className="border-l-4 border-l-green-600 pl-2">
             <ul>
-              <li>🎓 Concepteur Développeur d'applications (Osipro)</li>
+              <li>🎓 Concepteur Développeur d&apos;applications (Osipro)</li>
               <li>🎓 Développeur web et mobile (Openclassrooms)</li>
               <li>🎓 Technicien réseau et télécom (Adrar)</li>
             </ul>

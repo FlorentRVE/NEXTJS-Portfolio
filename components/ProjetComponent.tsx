@@ -17,7 +17,7 @@ export default function ProjetComponent({
   return (
     <div className="flex flex-col gap-4">
       <div className="flex justify-between items-center border-green-200 border-2 rounded-xl p-4 gap-2 bg-slate-800">
-        <img src={image} className="h-20 w-20 lg:h-36 lg:w-36 object-cover" />
+        <img src={image} className="h-20 w-20 lg:h-36 lg:w-36 object-cover" alt="image projet"/>
 
         <div className="flex flex-col gap-2 flex-1 pl-5 md:pl-24">
           <p className="text-lg font-bold text-green-500">{titre}</p>

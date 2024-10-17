@@ -12,7 +12,7 @@ function NavbarComponent() {
       <div className="flex justify-between items-center md:w-1/2 mx-auto h-16 px-4">
 
         <Link href="/">
-          <img src="/logo_rve.png" className="h-14 w-14" />
+          <img src="/logo_rve.png" className="h-14 w-14" alt="logo"/>
         </Link>
 
         <div className="flex gap-4 font-bold">
