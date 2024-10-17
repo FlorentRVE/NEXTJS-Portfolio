@@ -33,13 +33,13 @@ function NavbarComponent() {
             <Link href="/projet">Projet</Link>
           )}
 
-          {router === "/blog" ? (
+          {/* {router === "/blog" ? (
             <Link href="/blog" className="border-b-4 border-b-green-500">
               Blog
             </Link>
           ) : (
             <Link href="/blog">Blog</Link>
-          )}
+          )} */}
           
           {router === "/cv" ? (
             <Link href="/cv" className="border-b-4 border-b-green-500">

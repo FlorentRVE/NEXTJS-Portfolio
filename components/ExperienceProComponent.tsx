@@ -36,7 +36,7 @@ export default function ExperienceProComponent({
           <span className="text-green-500 uppercase">{entreprise}</span>
         </p>
         <p>{description}</p>
-        <ul className="list-disc px-3">
+        <ul className="px-3">
           <li>{mission1}</li>
           <li>{mission2}</li>
           <li>{mission3}</li>
