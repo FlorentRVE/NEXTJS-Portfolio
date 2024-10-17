@@ -11,7 +11,10 @@ export default function FooterComponent() {
           <SVGComponentGithub className="w-12 h-auto" />
         </a>
 
-        <a href="https://github.com/FlorentRVE" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/florent-rivi%C3%A8re-52b044153/"
+          target="_blank"
+        >
           <SVGComponentLinkedin className="w-12 h-auto" />
         </a>
       </div>
