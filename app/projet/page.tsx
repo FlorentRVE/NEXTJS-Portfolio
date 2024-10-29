@@ -16,6 +16,13 @@ export default function projet() {
 
         <div className="flex flex-col gap-3">
           <ProjetComponent
+            image="/projet/batayPump.png"
+            titre="Batay Pump"
+            description="Une application mobile de fitness en jouant"
+            stack="React Native, Github"
+            lienGitHub="https://github.com/FlorentRVE/REACT-NATIVE-Batay_Pump"
+          />
+          <ProjetComponent
             image="/projet/so_rh.png"
             titre="SO RH"
             description="Une application intra web permettant aux employés d'échanger plus rapidement avec le bureau RH via formulaire"
