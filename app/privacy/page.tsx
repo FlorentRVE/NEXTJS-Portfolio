@@ -4,7 +4,9 @@ export default function Privacy() {
   return (
     <div className="flex flex-col bg-slate-800 text-slate-100">
       <div className="flex flex-col md:w-2/3 md:mx-auto lg:w-1/2 bg-slate-900 shadow-xl p-8 gap-8">
-        <h1 className="text-3xl font-bold text-center">Règles de confidentialité</h1>
+        <h1 className="text-3xl font-bold text-center">
+          Règles de confidentialité
+        </h1>
 
         <p>Dernière mise à jour : 06 novembre 2024</p>
 
@@ -12,9 +14,8 @@ export default function Privacy() {
           <section className="p-4 flex flex-col gap-2">
             <h2>Introduction</h2>
             <p>
-              Bienvenue sur Batay Pump,votre vie privée est une
-              priorité, et nous prenons au sérieux la protection de vos données
-              personnelles.
+              Bienvenue sur Batay Pump,votre vie privée est une priorité, et
+              nous prenons au sérieux la protection de vos données personnelles.
             </p>
           </section>
 
@@ -41,29 +42,27 @@ export default function Privacy() {
               <li>
                 <strong>Pas de Suivi</strong>
                 <p>
-                  Batay Pump ne suit ni ne surveille vos activités à l'intérieur
-                  ou à l'extérieur de l'application.
+                  Batay Pump ne suit ni ne surveille vos activités à
+                  l&apos;intérieur ou à l&apos;extérieur de l&apos;application.
                 </p>
               </li>
               <li>
                 <strong>Pas de Partage de Données avec des Tiers</strong>
-                <p>
-                  Puisque nous ne collectons aucune donnée utilisateur, il n'y a
-                  rien à partager avec des tiers.
-                </p>
+                <p>Puisque nous ne collectons aucune donnée utilisateur.</p>
               </li>
               <li>
                 <strong>Pas de Stockage de Données</strong>
                 <p>
-                  Aucune donnée personnelle ou comportementale n'est stockée sur
-                  nos serveurs ou sur l'appareil de l'utilisateur.
+                  Aucune donnée personnelle ou comportementale n&apos;est
+                  stockée sur nos serveurs ou sur l&apos;appareil de
+                  l&apos;utilisateur.
                 </p>
               </li>
             </ul>
           </section>
 
           <section className="p-4 flex flex-col gap-2">
-            <h2>Utilisation de l'Application</h2>
+            <h2>Utilisation de l&apos;Application</h2>
             <p>
               Vous pouvez utiliser Batay Pump en toute tranquillité d'esprit,
               sachant que vos données restent privées et protégées.
@@ -85,12 +84,12 @@ export default function Privacy() {
             <h2>Contact</h2>
             <p>
               Si vous avez des questions ou des préoccupations concernant cette
-              politique de confidentialité, veuillez nous contacter à florent.rve@gmail.com
+              politique de confidentialité, veuillez nous contacter à
+              florent.rve@gmail.com
             </p>
           </section>
         </div>
       </div>
-
     </div>
   );
 }
