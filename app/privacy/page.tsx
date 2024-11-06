@@ -64,8 +64,9 @@ export default function Privacy() {
           <section className="p-4 flex flex-col gap-2">
             <h2>Utilisation de l&apos;Application</h2>
             <p>
-              Vous pouvez utiliser Batay Pump en toute tranquillité d'esprit,
-              sachant que vos données restent privées et protégées.
+              Vous pouvez utiliser Batay Pump en toute tranquillité
+              d&apos;esprit, sachant que vos données restent privées et
+              protégées.
             </p>
           </section>
 
