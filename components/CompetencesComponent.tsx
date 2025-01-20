@@ -83,24 +83,6 @@ export default function CompetencesComponent() {
           <div className="flex justify-between">
             <ul className="list-disc p-3">
               <li>
-                Framework backend{" "}
-                <a href="https://adonisjs.com/" className="text-lime-500">
-                  AdonisJs
-                </a>
-              </li>
-              <li>
-                Nodejs et son framework{" "}
-                <a href="https://expressjs.com/fr/" className="text-lime-500">
-                  Express.Js
-                </a>
-              </li>
-              <li>
-                Headless CMS avec{" "}
-                <a href="https://strapi.io/" className="text-lime-500">
-                  Strapi
-                </a>
-              </li>
-              <li>
                 Le framework PHP{" "}
                 <a href="https://symfony.com" className="text-lime-500">
                   Symfony

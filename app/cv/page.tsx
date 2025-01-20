@@ -43,16 +43,16 @@ export default function resume() {
               </li>
               <li>
                 <span className="font-bold text-green-500">Backend:</span>{" "}
-                Adonis.js, Strapi, Node.js, Symfony (PHP), APIs, Express.js,
+                Symfony (PHP), APIs,
                 MongoDB, MySQL
               </li>
               <li>
                 <span className="font-bold text-green-500">Mobile:</span> React
-                Native, Flutter{" "}
+                Native{" "}
               </li>
               <li>
                 <span className="font-bold text-green-500">Autres:</span>{" "}
-                Docker, Git, Vercel, Git Action, Wordpress, Divi{" "}
+                Docker, Git, Vercel, Git Action, Wordpress, Woocommerce, Divi{" "}
               </li>
             </ul>
           </div>
